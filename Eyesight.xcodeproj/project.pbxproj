@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		D025D24A2593D2E0000E865B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D025D2492593D2E0000E865B /* AppDelegate.swift */; };
 		D025D24C2593D2E0000E865B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D025D24B2593D2E0000E865B /* ContentView.swift */; };
-		D025D24E2593D2E0000E865B /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D025D24D2593D2E0000E865B /* Experience.rcproject */; };
 		D025D2502593D2E2000E865B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D025D24F2593D2E2000E865B /* Assets.xcassets */; };
 		D025D2532593D2E2000E865B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D025D2522593D2E2000E865B /* Preview Assets.xcassets */; };
 		D025D2562593D2E2000E865B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D025D2542593D2E2000E865B /* LaunchScreen.storyboard */; };
+		D025D2682593D6CE000E865B /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D025D2662593D6CE000E865B /* tv_retro.usdz */; };
+		D025D2692593D6CE000E865B /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D025D2672593D6CE000E865B /* toy_biplane.usdz */; };
+		D025D26C2593F458000E865B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D025D26B2593F458000E865B /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D025D2462593D2E0000E865B /* Eyesight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eyesight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D025D2492593D2E0000E865B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D025D24B2593D2E0000E865B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D025D24D2593D2E0000E865B /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		D025D24F2593D2E2000E865B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D025D2522593D2E2000E865B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D025D2552593D2E2000E865B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D025D2572593D2E2000E865B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D025D2662593D6CE000E865B /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = tv_retro.usdz; path = ../../../../../Downloads/tv_retro.usdz; sourceTree = "<group>"; };
+		D025D2672593D6CE000E865B /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = toy_biplane.usdz; path = ../../../../../Downloads/toy_biplane.usdz; sourceTree = "<group>"; };
+		D025D26B2593F458000E865B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +60,13 @@
 		D025D2482593D2E0000E865B /* Eyesight */ = {
 			isa = PBXGroup;
 			children = (
+				D025D26B2593F458000E865B /* Model.swift */,
 				D025D2492593D2E0000E865B /* AppDelegate.swift */,
 				D025D24B2593D2E0000E865B /* ContentView.swift */,
-				D025D24D2593D2E0000E865B /* Experience.rcproject */,
 				D025D24F2593D2E2000E865B /* Assets.xcassets */,
 				D025D2542593D2E2000E865B /* LaunchScreen.storyboard */,
 				D025D2572593D2E2000E865B /* Info.plist */,
+				D025D25F2593D62F000E865B /* Models */,
 				D025D2512593D2E2000E865B /* Preview Content */,
 			);
 			path = Eyesight;
@@ -73,6 +78,15 @@
 				D025D2522593D2E2000E865B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D025D25F2593D62F000E865B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D025D2672593D6CE000E865B /* toy_biplane.usdz */,
+				D025D2662593D6CE000E865B /* tv_retro.usdz */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,7 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D025D2562593D2E2000E865B /* LaunchScreen.storyboard in Resources */,
+				D025D2692593D6CE000E865B /* toy_biplane.usdz in Resources */,
 				D025D2532593D2E2000E865B /* Preview Assets.xcassets in Resources */,
+				D025D2682593D6CE000E865B /* tv_retro.usdz in Resources */,
 				D025D2502593D2E2000E865B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,9 +161,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D025D26C2593F458000E865B /* Model.swift in Sources */,
 				D025D24C2593D2E0000E865B /* ContentView.swift in Sources */,
 				D025D24A2593D2E0000E865B /* AppDelegate.swift in Sources */,
-				D025D24E2593D2E0000E865B /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
